@@ -1,0 +1,133 @@
+
+
+{
+    "about": [
+        ""
+    ],
+    "experiences": [
+        {
+            "id": "spnn",
+            "place": "Saint Paul Neighborhood Network (SPNN), Saint Paul, MN",
+            "date": "September 2021 - Present",
+            "positions": [
+                [
+                    "Graphic Designer",
+                    "Use design software to create graphics for Facebook, Instagram, and SPNN’s website to promote different events related to media and technology for the community",
+                    "Assist in the designing of their website to match the organization’s theme and aesthetics"
+                ] 
+            ]
+        },
+        {
+            "id": "saykid",
+            "place": "SayKid, Minneapolis, MN",
+            "date": "June – December 2021",
+            "positions": [
+                [
+                    "WordPress Developer",
+                    "Update SayKid's website design and functionality using WordPress tools and plugins", 
+                    "Responsible for the implementation of user-flow checkout process on SayKid's website (WooCommerce)"
+                ],
+                [
+                    "Designer",
+                    "Update SayKid's website design and functionality using WordPress tools and plugins", 
+                    "Collaborate on an interactive design box for the ToyBoy for its different games"
+                ]  
+            ]
+        },
+        {
+            "id": "clues",
+            "place": "CLUES, Saint Paul, MN",
+            "date": "September – December 2020",
+            "positions": [
+                [
+                    "Civic Engagement Coordinator for Youth in Action (YA!)",
+                    "Research, prepare, and present findings of civic engagement topics to high school students",
+                    "Develop different activities for students related to civic engagement, including rights and responsibilities"
+                ]
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Mac Map 2.0",
+            "status": "In progress - Last update: Jan 2023",
+            "description": "The aim of this project is to help Macalester College students find their classrooms for their courses if they are not familiar with the different buildings. Mac Map 2.0 is the second version of Mac Map, which is a group project from a Software Development course at Macalester. The idea started with personal experiences in how much time we spent on finding a classroom every semester, specially if we have never taken a class at a building. This version is built mainly using Next JS, a React framwork.",
+            "image": "macmap"
+        },
+        {
+            "name": "AI learns how to play Super Mario World",
+            "status": "In progress - Last update: Dec 2022",
+            "description": "Super Mario World is a platform game that consist mainly on getting from point A to point B. The implementation of an AI agent to learn how to play this game incorporates Genetic Algorithms which are based on the ideas of natural selection and genetics. The goal of this project was that after N generations of size M, in generation N+1 and agent will be able to complete at least the first level of world 1. The tools needed are PyBoy, which is a GamBoy emulator developed in Python, and Python.",
+            "image": "mario"
+        },
+        {
+            "name": "Juan Rios' Website",
+            "status": "In progress - Last update: Jan 2023",
+            "description": "This website had the intention to highlight Juan, his background, and his skills. It is built implementing Next JS, a React framework.",
+            "image": "juan"
+        }        
+    ],
+    "skills": {
+        "software":[
+            {
+                "name": "Adobe XD",
+                "level": "Advance",
+                "image": "adobexd.png"
+            },
+            {
+                "name": "Illustrator",
+                "level": "Advance",
+                "image": ""
+            },
+            {
+                "name": "Photoshop",
+                "level": "Intermidiate",
+                "image": ""
+            },
+            {
+                "name": "Figma",
+                "level": "Intermidate",
+                "image": "figma.png"
+            },
+            {
+                "name": "WordPress",
+                "level": "Advance",
+                "image": "wordpress.png"
+            },
+            {
+                "name": "SquareSpace",
+                "level": "Intermidiate",
+                "image": "squarespace.png"
+            }
+        ],
+        "programming": [
+            {
+                "name": "HTML",
+                "level": "Intermidate",
+                "image": "html.png"
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": "Intermidiate",
+                "image": "tailwind.png"
+            },
+            {
+                "name": "Javascript",
+                "level": "Intermidate",
+                "image": "javascript.png"
+            },
+            {
+                "name": "Python",
+                "level": "Advance",
+                "image": "python.png"
+            },
+            {
+                "name": "Next.js",
+                "level": "Intermidate",
+                "image": "nextjs.png"
+            }
+        ]
+        
+    }
+
+}
