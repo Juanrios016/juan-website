@@ -2,15 +2,15 @@ import Link from "next/link";
 
 export default function Experiences() {
     return (
-        <div className=" min-h-screen font-bold bg-white mb-5 py-5 px-7 md:px-16 text-base text-black">
-            <div className=" m-auto max-sm:max-w-72">
-                <h1 className="m-auto py-4 text-lg">
+        <div className=" min-h-screen font-bold bg-white py-5 px-7 md:px-[100px] text-black">
+            <div className=" px-5 max-sm:max-w-72 max-w-fit">
+                <h1 className=" py-4 text-2xl">
                     Previous Experiences
                 </h1>
                 <div className={" max-w-fit items-start m-auto"}>
-                    <div className={" max-sm:text-sm max-w-fit"}>
+                    <div className={" max-w-fit"}>
                         <h4 className="">
-                            <Link href={""} className={"italic"}>
+                            <Link href={"https://spnn.org/"} className={"italic text-blue-700 underline"}>
                                 Saint Paul Neighborhood Network (SPNN)
                             </Link>
                             , St. Paul, Minnesota
@@ -33,9 +33,9 @@ export default function Experiences() {
                             </li>
                         </ul>
                     </div>
-                    <div className={" pt-3 max-w-fit max-sm:text-sm"}>
+                    <div className={" pt-3 max-w-fit"}>
                         <h4 className="">
-                            <Link href={""} className={"italic"}>
+                            <Link href={"https://saykid.com/"} className={"italic text-blue-700 underline"}>
                                 SayKid
                             </Link>
                             , Minneapolis, Minnesota
@@ -69,9 +69,9 @@ export default function Experiences() {
                             </li>
                         </ul>
                     </div>
-                    <div className={" pt-3 max-w-fit max-sm:text-sm "}>
+                    <div className={" pt-5 max-w-fit "}>
                         <h4 className=" ">
-                            <Link href={""} className={"italic"}>
+                            <Link href={"https://www.upturnships.org/"} className={"italic text-blue-700 underline"}>
                                 UpTurnnShips
                             </Link>
                             , Minneapolis, Minnesota
@@ -94,9 +94,9 @@ export default function Experiences() {
                             </li>
                         </ul>
                     </div>
-                    <div className={" pt-3 max-w-fit max-sm:text-sm "}>
+                    <div className={" pt-5 max-w-fit "}>
                         <h4 className="">
-                            <Link href={""} className={"italic"}>
+                            <Link href={"https://clues.org/"} className={"italic text-blue-700 underline"}>
                                 Comunidades Latinas Unidas En Servicio (CLUES)
                             </Link>
                             , St. Paul, Minnesota
@@ -116,9 +116,9 @@ export default function Experiences() {
                             </li>
                         </ul>
                     </div>
-                    <div className={" pt-3 max-w-fit max-sm:text-sm "}>
+                    <div className={" pt-5 max-w-fit "}>
                         <h4 className="">
-                            <Link href={""} className={"italic"}>
+                            <Link href={"https://www.spps.org/expo"} className={"italic text-blue-700 underline"}>
                                 EXPO School
                             </Link>
                             , St. Paul, Minnesota
@@ -138,12 +138,9 @@ export default function Experiences() {
                             </li>
                         </ul>
                     </div>
-                    <div className={"pt-3 max-w-fit max-sm:text-sm "}>
+                    <div className={"pt-5 max-w-fit"}>
                         <h4 className="">
-                            <Link href={""} className={"italic"}>
-                                Walmart
-                            </Link>
-                            , Bloomington, Minnesota
+                            Walmart, Bloomington, Minnesota
                         </h4>
                         <h4 className={" font-normal"} >
                             June – August 2019

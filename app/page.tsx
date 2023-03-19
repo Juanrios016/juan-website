@@ -24,7 +24,7 @@ export default function Home() {
 
 const Intro = () => {
     return (
-        <div className={"min-h-fit bg-macblue text-white flex-row-reverse flex max-sm:flex-col py-5 px-7 md:px-16" }>
+        <div className={"min-h-fit bg-macblue text-white flex flex-row-reverse max-sm:flex-col py-5 px-7 md:px-16" }>
           <div className={" self-center md:w-1/2 sm:w-1/2"}>
             <Image src={juanPic} className={" h-auto border-white border-8 w-2/3 m-auto"} alt='Juan Rios Pic'/>
           </div>
@@ -41,11 +41,11 @@ const Intro = () => {
 
 const About = () => {
   return (
-      <div className={"justify-center text-black bg-white py-5 px-7 md:px-16"}>
+      <div className={"justify-center text-black bg-white py-5 px-7 md:px-[100px]"}>
 
-          <div className={"max-sm:max-w-72 m-auto px-5 md:flex md:flex-row min-h-[500px]"}>
-              <div className={"py-2 text-sm md:w-7/12 m-auto md:text-base"}>
-                  <h1 className={" font-bold pb-2 text-lg"}>
+          <div className={"max-sm:max-w-72 m-auto px-5 md:flex md:flex-row min-h-[500px] "}>
+              <div className={"py-2 md:w-7/12 m-auto"}>
+                  <h1 className={" font-bold pb-2 text-3xl"}>
                       About Juan
                   </h1>
                   <p className="py-1"> 
@@ -59,12 +59,12 @@ const About = () => {
                   </p>
               </div>
 
-              <div className={" m-auto text-base font-bold py-2 text-center md:w-5/12 "}>  
+              <div className={" m-auto font-bold py-2 text-center md:w-5/12 "}>  
                 <div className=" md:w-10/12 m-auto">
-                  <h3 className="py-3">
+                  <h3 className="py-3 text-xl">
                       Education
                   </h3>
-                  <div className={"space-x-4 m-auto max-sm:max-w-xs sm:max-w-sm md:flex md:flex-row" }>
+                  <div className={"space-x-4 m-auto max-sm:max-w-xs sm:max-w-sm md:flex md:flex-col" }>
                       <Link href={"https://www.hiawathaacademies.org/apps/pages/hchs"}>
                           <Image src={hchs} className={" "} quality={100} alt={"hiawatha academies high school logo"} />
                       </Link>
@@ -75,11 +75,11 @@ const About = () => {
                 </div> 
 
                 <div className="mt-4 md:w-10/12 m-auto">
-                  <h3 className="py-3">
+                  <h3 className="py-3 text-xl">
                       Previous Oppurtunities
                   </h3>
-                  <div className={" space-x-4 m-auto max-sm:max-w-xs sm:max-w-sm md:flex"}>
-                      <div className=" flex space-x-4  max-sm:max-w-xs md:flex-row md:w-3/5">
+                  <div className={" space-x-4 m-auto max-sm:max-w-xs sm:max-w-sm md:flex md:flex-col"}>
+                      <div className=" flex space-x-4 m-auto max-sm:max-w-xs md:flex-row md:w-3/5">
                         <Link href={"https://saykid.com/"} className={""}>
                             <Image src={saykid} className={""} quality={100} alt={"saykid logo"}/>
                         </Link > 
@@ -88,7 +88,7 @@ const About = () => {
                         </Link> 
                       </div>
                       <Link href={"https://clues.org/"} className={""}>
-                          <Image src={clues} className={"md:w-60"} quality={100} alt={"comunidades latinas unidas en servicio logo"}/>
+                          <Image src={clues} className={"md:w-60 m-auto"} quality={100} alt={"comunidades latinas unidas en servicio logo"}/>
                       </Link>  
                   </div>
                 </div>                 
@@ -101,15 +101,17 @@ const About = () => {
 
 const Skills = () => {
 return (
-  <div className="bg-macblue text-white place-self-center py-5 px-7 md:px-16">
+  <div className="bg-macblue text-white place-self-center py-5 px-7 md:px-[100px]">
 
-    <h1 className=" max-sm:max-w-72 m-auto px-5 pt-4 font-bold text-lg ">Skills</h1>
-    <div className={"md:flex  items-start text-base"}>
+    <h1 className=" max-sm:max-w-72 m-auto px-5 pt-4 font-bold pb-2 text-3xl ">
+      Skills
+    </h1>
+    <div className={"md:flex  items-start"}>
       <div className="  max-sm:max-w-72 m-auto md:w-1/3">
-        <h1 className="font-bold text-center underline">
+        <h1 className="font-bold text-center underline text-xl">
           Software
         </h1>
-        <div className="flex flex-wrap text-center justify-evenly py-3 max-sm:text-sm">
+        <div className="flex flex-wrap text-center justify-evenly py-3">
           <div className="flex flex-col justify-center  py-2">
             <Image src={"/illustrator.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Illustrator</p>
@@ -144,10 +146,10 @@ return (
       </div>
 
       <div className=" max-sm:max-w-72  m-auto md:w-1/3">
-        <h1 className="font-bold text-center underline">
+        <h1 className="font-bold text-center underline text-xl">
           Programming
         </h1>
-        <div className="flex flex-wrap text-center justify-evenly py-3 max-sm:text-sm">
+        <div className="flex flex-wrap text-center justify-evenly py-3">
           <div className="flex flex-col justify-center  py-2">
             <Image src={"/python.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Python</p>

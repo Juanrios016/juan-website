@@ -6,17 +6,17 @@ import mario from "../../public/mario.jpg"
 
 export default function Projects () {
     return (
-        <div className=" min-h-screen bg-macblue text-white mb-5 py-5 px-7 md:px-16">
-            <div className=" m-auto max-sm:max-w-72">
-                <div className={"max-sm:text-sm m-auto"}>
-                    <h1 className=" font-bold m-auto py-4 text-lg">
+        <div className=" min-h-screen bg-macblue text-white py-5 px-7 md:px-[100px] ">
+            <div className=" px-5 max-sm:max-w-72 ">
+                <div className={""}>
+                    <h1 className=" font-bold m-auto py-4 text-2xl">
                         Academic Projects
                     </h1>
 
-                    <div className={" pb-4"}>
-                        <div className={"min-[769px]:flex min-[769px]:flex-row-reverse"}>
-                            <Image src={mario} alt={"Super MArio Land game cover"} className={"min-[425px]:max-w-md m-auto min-[769px]:mr-0 justify-star"} />
-                            <div className=" min-[425px]:w-auto min-[425px]:px-10" >
+                    <div className={" pb-8"}>
+                        <div className={"min-[860px]:flex min-[860px]:flex-row-reverse min-[860px]:space-x-4 min-[860px]:space-x-reverse"}>
+                            <Image src={mario} alt={"Super MArio Land game cover"} className={" m-auto mt-0 min-[425px]:w-4/6 min-[769px]:max-w-xs"} />
+                            <div className=" min-[425px]:w-auto" >
                                 <h2 className=" font-semibold">
                                     Genetic Algorithms: AI learns how to play Seper Mario Land
                                 </h2>
@@ -32,10 +32,10 @@ export default function Projects () {
                             </div>
                         </div>
                     </div>
-                    <div className={"py-4 min-[425px]:px-10"}>
-                        <div className={"min-[769px]:flex min-[769px]:flex-row  items-start"}>
-                            <Image src={macmap} alt={"Mac Map logo"} className={"min-[425px]:max-w-md mx-auto min-[769px]:ml-0 justify-start"} />
-                            <div className={" min-[425px]:w-auto min-[425px]:px-10"}>
+                    <div className={"py-8"}>
+                        <div className={"min-[860px]:flex min-[860px]:flex-row min-[860px]:space-x-4 "}>
+                            <Image src={macmap} alt={"Mac Map logo"} className={"m-auto mt-0 min-[500px]:max-w-sm "} />
+                            <div className={" min-[425px]:w-auto"}>
                                 <h2 className={" font-semibold"}>
                                     Mac-Map
                                 </h2>
@@ -51,10 +51,10 @@ export default function Projects () {
                             </div>
                         </div>
                     </div>
-                    <div className={"py-4"}>
-                        <div className={"min-[769px]:flex min-[769px]:flex-row-reverse"}>
-                            <Image src={chowgirls} alt={"Chowgirls logo"} className={"min-[425px]:max-w-md m-auto min-[769px]:mt-0  "} />
-                            <div className={" min-[425px]:w-auto min-[425px]:px-10"}>
+                    <div className={"py-8"}>
+                        <div className={"min-[860px]:flex min-[860px]:flex-row-reverse min-[860px]:space-x-4 min-[860px]:space-x-reverse"}>
+                            <Image src={chowgirls} alt={"Chowgirls logo"} className={" m-auto mt-0 min-[769px]:max-w-md"} />
+                            <div className={" "}>
                                 <h2 className=" font-semibold">
                                     ChowGirls Data Analysis, Consulting Team
                                 </h2>
@@ -84,14 +84,14 @@ export default function Projects () {
                     </div>
                 </div>
 
-                <div className={"max-sm:text-sm"}>
-                    <h1 className=" font-bold text-lg py-4">
+                <div className={""}>
+                    <h1 className=" font-bold m-auto text-2xl py-4">
                         Additonal Projects
                     </h1>
-                    <div className={"pb-4"}>
-                        <div className={"min-[769px]:flex min-[769px]:flex-row min-[425px]:px-10"}>
-                            <Image src={juanLogo} alt={"Juan's logo"} className={"min-[425px]:max-w-md p-4 min-[769px]:ml-0 bg-white"} />
-                            <div className={" min-[425px]:w-auto min-[425px]:px-10 min-[425px]:ml-0 bg-green-200"}>
+                    <div className={"pb-8"}>
+                        <div className={"min-[860px]:flex min-[860px]:flex-row min-[860px]:space-x-4"}>
+                            <Image src={juanLogo} alt={"Juan's logo"} className={"bg-white p-2 mt-0 min-[500px]:max-w-sm "} />
+                            <div className={"min-[425px]:w-auto"}>
                                 <h2 className=" font-semibold">
                                     Juan's Website
                                 </h2>

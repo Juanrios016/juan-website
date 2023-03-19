@@ -1,7 +1,7 @@
 import Footer from './footer';
 import './globals.css';
 import NavBar from './navbar';
-import { Montserrat, Bebas_Neue, Inter, Roboto_Slab } from "next/font/google";
+import { Montserrat, Bebas_Neue, Roboto_Slab } from "next/font/google";
 
 
 export const metadata = {
@@ -42,7 +42,7 @@ export default function RootLayout({
     <html lang="en">
       
 
-      <body className={`${roboto_slab.className} ${montserrat.className} font-montserrat`} >
+      <body className={`${roboto_slab.className} ${montserrat.className} bg-white font-roboto_slab text-base`} >
         <NavBar />
         {children}
         <Footer/>
