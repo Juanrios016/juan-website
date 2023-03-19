@@ -111,32 +111,32 @@ return (
         </h1>
         <div className="flex flex-wrap text-center justify-evenly py-3 max-sm:text-sm">
           <div className="flex flex-col justify-center  py-2">
-            <Image src={"./../public/illustrator.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/illustrator.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Illustrator</p>
             <p>Level: Advance</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/photoshop.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/photoshop.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Photoshop</p>
             <p>Level: Intermidiate</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/adobexd.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/adobexd.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Adobe XD</p>
             <p>Level: Advance</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/figma.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/figma.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Figma</p>
             <p>Level: Advance</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/squarespace.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/squarespace.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Squarespace</p>
             <p>Level: Intermidiate</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/wordpress.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/wordpress.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">WordPress</p>
             <p>Level: Advance</p>
           </div>
