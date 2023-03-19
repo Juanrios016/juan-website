@@ -111,7 +111,7 @@ return (
         </h1>
         <div className="flex flex-wrap text-center justify-evenly py-3 max-sm:text-sm">
           <div className="flex flex-col justify-center  py-2">
-            <Image src={"/../public/illustrator.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"./../public/illustrator.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Illustrator</p>
             <p>Level: Advance</p>
           </div>
