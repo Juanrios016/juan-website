@@ -149,32 +149,32 @@ return (
         </h1>
         <div className="flex flex-wrap text-center justify-evenly py-3 max-sm:text-sm">
           <div className="flex flex-col justify-center  py-2">
-            <Image src={"/../public/python.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/python.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Python</p>
             <p>Level: Advance</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/html.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/html.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">HTML</p>
             <p>Level: Intermidiate</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/tailwind.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/tailwind.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Tailwind CSS</p>
             <p>Level: Beginner</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/javascript.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/javascript.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">JavaScript</p>
             <p>Level: Intermidiate</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/nextjs.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/nextjs.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Next.js</p>
             <p>Level: Beginner</p>
           </div>
           <div className="flex flex-col justify-center py-2">
-            <Image src={"/../public/java.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+            <Image src={"/java.png"} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
             <p className="font-bold">Java</p>
             <p>Level: Intermidiate</p>
           </div>
