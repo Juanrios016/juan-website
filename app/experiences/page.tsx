@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Experiences() {
     return (
-        <div className=" min-h-screen font-bold bg-white mb-5 py-5 px-7 md:px-16 text-base">
+        <div className=" min-h-screen font-bold bg-white mb-5 py-5 px-7 md:px-16 text-base text-black">
             <div className=" m-auto max-sm:max-w-72">
                 <h1 className="m-auto py-4 text-lg">
                     Previous Experiences
