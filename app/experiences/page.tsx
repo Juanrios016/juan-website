@@ -12,7 +12,23 @@ async function getData() {
 
 export default async function Experiences() {
     
-    const data = await getData();  
+    
+    
+    return (
+        <div className=" min-h-screen font-bold bg-white py-5 px-7 md:px-[100px] text-black">
+            <div className=" px-5 max-sm:max-w-72 max-w-fit">
+                <h1 className=" py-4 text-2xl">
+                    Previous Experiences
+                </h1>                
+                {/* {exp} */}
+            </div>
+        </div>
+    )
+}
+
+
+/**
+ * const data = await getData();  
     const experiences =  data.experiences
     const exp = experiences.map((exp:SingleExperience) => (
         <div key={exp.id.toString()} className={" pt-3 max-w-fit"}>
@@ -45,16 +61,4 @@ export default async function Experiences() {
             
         </div>
     ))
-    
-    return (
-        <div className=" min-h-screen font-bold bg-white py-5 px-7 md:px-[100px] text-black">
-            <div className=" px-5 max-sm:max-w-72 max-w-fit">
-                <h1 className=" py-4 text-2xl">
-                    Previous Experiences
-                </h1>                
-                {exp}
-            </div>
-        </div>
-    )
-}
-
+ */

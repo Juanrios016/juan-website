@@ -13,9 +13,7 @@ async function getData() {
   }
 
 export default async function Projects () {
-    const data = await getData();
-    
-    console.log(data);
+
     
     
    
