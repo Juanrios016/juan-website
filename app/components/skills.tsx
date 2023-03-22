@@ -1,11 +1,13 @@
 import Image from "next/image"
-import {softwareSkills, programmingSkills} from "../../json/data.json"
+import data from "../../json/data.json"
 
 
 
 export default function Skills () {
 
-  const software = softwareSkills.map( (skill:Skill) => (
+  const {softwareSkills, programmingSkills} = data
+
+  const software = softwareSkills.map( skill => (
     <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
       <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
       <p className="font-bold">{skill.name}</p>
@@ -13,7 +15,7 @@ export default function Skills () {
     </div>
   ))
 
-  const programming = programmingSkills.map( (skill:Skill) => (
+  const programming = programmingSkills.map( skill => (
     <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
       <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
       <p className="font-bold">{skill.name}</p>

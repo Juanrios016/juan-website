@@ -1,4 +1,4 @@
-type Skill = {
+type SingleSkill = {
         "name": String,
         "level": String,
         "image": String

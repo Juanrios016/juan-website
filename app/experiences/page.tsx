@@ -1,15 +1,15 @@
 import Link from "next/link";
-import {experiences} from "../../json/data.json"
+import data from "../../json/data.json"
 
 export default async function Experiences() {
-    
+    const { experiences } = data
     const allExperiences = experiences.map((exp) => (
         <div key={exp.id.toString()} className={" pt-3 max-w-fit"}>
             <h4 className=""> 
                 <Link href={exp.link} className={"italic text-blue-700 underline"}>
                     {exp.place}
                 </Link>
-                {exp.location}
+                , {exp.location}
             </h4>
             <h4 className={" font-normal"} >
                 {exp.date}
@@ -31,7 +31,6 @@ export default async function Experiences() {
                     </div>
                 ))
             }
-            
         </div>
     ))
     
@@ -47,39 +46,3 @@ export default async function Experiences() {
     )
 }
 
-
-/**
- * const data = await getData();  
-    const experiences =  data.experiences
-    const exp = experiences.map((exp:SingleExperience) => (
-        <div key={exp.id.toString()} className={" pt-3 max-w-fit"}>
-            <h4 className=""> 
-                <Link href={exp.link} className={"italic text-blue-700 underline"}>
-                    {exp.place}
-                </Link>
-                {exp.location}
-            </h4>
-            <h4 className={" font-normal"} >
-                {exp.date}
-            </h4>
-            {
-                exp.positions.map(pos => (
-                    <div key={pos.name.toString()}>
-                        <p className={"pt-1 font-medium"}>
-                        {pos.name}
-                        </p>
-                        <ul className=" pl-4 pt-2 font-normal list-disc">
-                            {pos.tasks.map( task => (
-                                <li key={task.toString()}>
-                                    {task}
-                                </li>
-                            ))}
-                            
-                        </ul>
-                    </div>
-                ))
-            }
-            
-        </div>
-    ))
- */
