@@ -14,14 +14,14 @@ async function getData() {
 
 export default async function Home( ) {
 
-  const data = await getData();
+  // const data = await getData();
   // console.log(data.skills);
   
     
   return (
     
     <main className={""}>
-      {data.toString()}
+      {/* {data.toString()} */}
       <Intro />
       <About />
       <Skills skills={contentData.skills}/>
