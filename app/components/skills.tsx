@@ -1,29 +1,25 @@
 import Image from "next/image"
+import {softwareSkills, programmingSkills} from "../../json/data.json"
 
 
 
-export default function Skills (data:any) {
- 
-  console.log(data);
-  
+export default function Skills () {
 
-  const { software}= data.skills
+  const software = softwareSkills.map( (skill:Skill) => (
+    <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
+      <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+      <p className="font-bold">{skill.name}</p>
+      <p>Level: {skill.level}</p>
+    </div>
+  ))
 
-  // const softwareSkills = software.map( (skill:Skill) => (
-  //   <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
-  //     <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
-  //     <p className="font-bold">{skill.name}</p>
-  //     <p>Level: {skill.level}</p>
-  //   </div>
-  // ))
-
-  // const programmingSkills = programming.map( (skill:Skill) => (
-  //   <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
-  //     <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
-  //     <p className="font-bold">{skill.name}</p>
-  //     <p>Level: {skill.level}</p>
-  //   </div>
-  // ))
+  const programming = programmingSkills.map( (skill:Skill) => (
+    <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
+      <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+      <p className="font-bold">{skill.name}</p>
+      <p>Level: {skill.level}</p>
+    </div>
+  ))
 
     return (
       <div className="bg-macblue text-white place-self-center py-5 px-7 md:px-[100px]">
@@ -38,7 +34,6 @@ export default function Skills (data:any) {
             </h1>
             <div className="flex flex-wrap text-center justify-evenly py-3">
               {
-                // 
                 software
               }
             </div>
@@ -51,8 +46,7 @@ export default function Skills (data:any) {
 
              <div className="flex flex-wrap text-center justify-evenly py-3">
               {
-                // programmingSkills
-                software
+                programming
               }
             </div>
           </div>

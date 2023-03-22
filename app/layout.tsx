@@ -28,11 +28,6 @@ const roboto_slab = Roboto_Slab({
   weight: ['400']
 })
 
-
-
-
-
-
 export default function RootLayout({
   children,
 }: {
