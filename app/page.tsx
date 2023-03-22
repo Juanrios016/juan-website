@@ -14,7 +14,7 @@ async function getData() {
 
 export default async function Home( ) {
 
-  const data = await getData();
+  // const data = await getData();
   // console.log(data.skills);
   
     
@@ -23,7 +23,7 @@ export default async function Home( ) {
     <main className={""}>
       <Intro />
       <About />
-      <Skills skills={data.skills}/>
+      <Skills skills={contentData.skills}/>
     </main>
   )
 }
