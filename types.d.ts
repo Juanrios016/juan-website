@@ -16,3 +16,11 @@ type SinglePosition = {
         "name": String,
         "tasks": [String]
     }
+
+type SingleProject = {
+        "name": String,
+        "status": String,
+        "class": String
+        "description": String,
+        "image": String
+    }

@@ -122,14 +122,14 @@
             "name": "Mac Map",
             "class": "Class: Designing Works and Careers",
             "status": "Status: Last update - December 2021",
-            "description": "During the Summer of 2021, we had the opportunity to collaborate with bussiiness around the Twin Cities in projects that could be done remotly. This was a grouped project where we accomplished the following",
+            "description": "The aim of this group project is to help Macalester College students find their corresponding classrooms for their different courses. The idea started with personal experiences in how much time we spent on finding a classroom every semester, specially if we have never taken a class at a building. This version is built mainly using HTML, CSS, and JavaScript.",
             "image": "mac-map.jpg"
         },
         {
             "name": "ChowGirls Data Analysis, Consulting Team",
             "status": "Status: Summer 2021",
-            "description": "This website had the intention to highlight Juan, his background, and his skills. It is built implementing Next JS, a React framework.",
-            "image": "chowgirls.jpg"
+            "description": "During the Summer of 2021, we had the opportunity to collaborate with bussiiness around the Twin Cities in projects that could be done remotly. This was a grouped project where we accomplished the following",
+            "image": "chowgirls.png"
         }        
     ],
     "sideProjects" : [

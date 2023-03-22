@@ -3,7 +3,7 @@ import contentData from "../../json/data.json"
 
 
 async function getData() {
-    const res = await fetch('http://localhost:3000/api/content');
+    const res = await fetch('http://localhost:3000/api/content-data');
     if (!res.ok) {
       throw new Error('Failed to fetch data');
     }
@@ -20,7 +20,7 @@ export default async function Experiences() {
                 <Link href={exp.link} className={"italic text-blue-700 underline"}>
                     {exp.place}
                 </Link>
-                , {exp.location}
+                {exp.location}
             </h4>
             <h4 className={" font-normal"} >
                 {exp.date}
