@@ -1,5 +1,3 @@
-
-
 {
     "about": [
         ""
@@ -112,26 +110,37 @@
             ]
         }         
     ],
-    "projects": [
+    "academicProjects": [
         {
-            "name": "Mac Map 2.0",
-            "status": "In progress - Last update: Jan 2023",
-            "description": "The aim of this project is to help Macalester College students find their classrooms for their courses if they are not familiar with the different buildings. Mac Map 2.0 is the second version of Mac Map, which is a group project from a Software Development course at Macalester. The idea started with personal experiences in how much time we spent on finding a classroom every semester, specially if we have never taken a class at a building. This version is built mainly using Next JS, a React framwork.",
-            "image": "macmap"
+            "name": "Genetic Algorithms: AI learns how to play Seper Mario Land",
+            "class": "Class: Introduction to AI",
+            "status": "In progress - Last update: February 2023",
+            "description": "Super Mario World is a platform game that consist mainly on getting from point A to point B. The implementation of an AI agent to learn how to play this game incorporates Genetic Algorithms which are based on the ideas of natural selection and genetics. The goal of this project is that after N generations of size M, in generation N+1 and agent will be able to complete at least the first level of world 1. The tools needed are PyBoy, which is a GamBoy emulator developed in Python, and Python. ",
+            "image": "mario.jpg"
         },
         {
-            "name": "AI learns how to play Super Mario World",
-            "status": "In progress - Last update: Dec 2022",
-            "description": "Super Mario World is a platform game that consist mainly on getting from point A to point B. The implementation of an AI agent to learn how to play this game incorporates Genetic Algorithms which are based on the ideas of natural selection and genetics. The goal of this project was that after N generations of size M, in generation N+1 and agent will be able to complete at least the first level of world 1. The tools needed are PyBoy, which is a GamBoy emulator developed in Python, and Python.",
-            "image": "mario"
+            "name": "Mac Map",
+            "class": "Class: Designing Works and Careers",
+            "status": "Status: Last update - December 2021",
+            "description": "During the Summer of 2021, we had the opportunity to collaborate with bussiiness around the Twin Cities in projects that could be done remotly. This was a grouped project where we accomplished the following",
+            "image": "mac-map.jpg"
         },
         {
-            "name": "Juan Rios' Website",
-            "status": "In progress - Last update: Jan 2023",
+            "name": "ChowGirls Data Analysis, Consulting Team",
+            "status": "Status: Summer 2021",
             "description": "This website had the intention to highlight Juan, his background, and his skills. It is built implementing Next JS, a React framework.",
-            "image": "juan"
+            "image": "chowgirls.jpg"
         }        
     ],
+    "sideProjects" : [
+        {
+            "name": "Juan's Website",
+            "status": "Status: In progress - Last update: March 2023",
+            "description": "This website has the intention of highlighting Juan, his background, and his skills. It is built implementing Next JS, a React framework.",
+            "image": "logo-blue.png"
+        }
+    ],
+
     "skills": {
         "software":[
             
