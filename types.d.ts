@@ -24,3 +24,11 @@ type SingleProject = {
         "description": String,
         "image": String
     }
+
+type JuanData = {
+    "about": [],
+    "experiences": [],
+    "academicProjects": [],
+    "sideProjects": [],
+    "skills": []
+}

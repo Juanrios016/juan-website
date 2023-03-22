@@ -2,20 +2,17 @@ import Intro from "./components/intro"
 import About from "./components/about"
 import Skills from "./components/skills"
 import contentData from "../json/data.json"
+import getData from "@/lib/getJuanDatajuan-website" 
 
-
-async function getData() {
-  const res = await fetch('http://localhost:3000/api/content');
-  if (!res.ok) {
-    throw new Error('Failed to fetch data');
-  }
-  return res.json();
-}
 
 export default async function Home( ) {
 
-  // const data = await getData();
-  // console.log(data.skills);
+  const data: Promise<JuanData[]> = getData()
+  const allData = await data
+
+  // console.log(allData);
+  
+  
   
     
   return (
@@ -24,7 +21,7 @@ export default async function Home( ) {
       {/* {data.toString()} */}
       <Intro />
       <About />
-      <Skills skills={contentData.skills}/>
+      <Skills skills={contentData.sideProjects}/>
     </main>
   )
 }

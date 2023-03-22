@@ -141,8 +141,7 @@
         }
     ],
 
-    "skills": {
-        "software":[
+    "softwareSkills":[
             
             {
                 "name": "Illustrator",
@@ -174,8 +173,8 @@
                 "level": "Intermidiate",
                 "image": "squarespace.png"
             }
-        ],
-        "programming": [
+    ],
+        "programmingSkills": [
             {
                 "name": "Python",
                 "level": "Advance",
@@ -206,8 +205,5 @@
                 "level": "Intermidiate",
                 "image": "java.png"
             }
-        ]
-        
-    }
-
+    ]
 }
