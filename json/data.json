@@ -115,7 +115,7 @@
             "name": "Genetic Algorithms: AI learns how to play Seper Mario Land",
             "class": "Class: Introduction to AI",
             "status": "In progress - Last update: February 2023",
-            "description": "Super Mario World is a platform game that consist mainly on getting from point A to point B. The implementation of an AI agent to learn how to play this game incorporates Genetic Algorithms which are based on the ideas of natural selection and genetics. The goal of this project is that after N generations of size M, in generation N+1 and agent will be able to complete at least the first level of world 1. The tools needed are PyBoy, which is a GamBoy emulator developed in Python, and Python. ",
+            "description": "Super Mario World is a classic platform game that involves traversing from point A to point B. To enhance the game's playability, an AI agent has been implemented using Genetic Algorithms, which are rooted in natural selection and genetics. The project's objective is to train an agent using N number of generations, with the aim of enabling it to complete at least the first level of World 1 by the N+1 generation. To accomplish this, the project requires the use of PyBoy, a GameBoy emulator built in Python, and Python itself.",
             "image": "mario.jpg",
             "id": 1
         },
@@ -123,14 +123,14 @@
             "name": "Mac Map",
             "class": "Class: Designing Works and Careers",
             "status": "Status: Last update - December 2021",
-            "description": "The aim of this group project is to help Macalester College students find their corresponding classrooms for their different courses. The idea started with personal experiences in how much time we spent on finding a classroom every semester, specially if we have never taken a class at a building. This version is built mainly using HTML, CSS, and JavaScript.",
+            "description": "The purpose of this group project is to create a tool that assists Macalester College students in locating their classrooms for various courses. The idea stemmed from personal experiences with the amount of time spent searching for a classroom each semester, particularly when unfamiliar with a particular building. This version of the tool was developed using HTML, CSS, and JavaScript as the primary programming languages.",
             "image": "mac-map.jpg",
             "id": 2
         },
         {
             "name": "ChowGirls Data Analysis, Consulting Team",
             "status": "Status: Summer 2021",
-            "description": "During the Summer of 2021, we had the opportunity to collaborate with bussiiness around the Twin Cities in projects that could be done remotly. This was a grouped project where we accomplished the following",
+            "description": "This group project consisted in conducteing a comprehensive analysis of ChowGirls Kitchen's data from April 2020 - April 2021 using bar graphs to identify specific areas where waste reduction efforts can be implemented effectively. We also designed graphics that visually depict ChowGirls' commitment to sustainability and eco-friendliness along with the results that demonstrated this, which were featured on the company's website and social media channels.",
             "image": "chowgirls.png",
             "id": 3
         }        

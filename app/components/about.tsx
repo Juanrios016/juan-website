@@ -17,13 +17,13 @@ export default function  About() {
                         About Juan
                     </h1>
                     <p className="py-1"> 
-                        Juan is a first-generation college student who was born in Minneapolis, MN but raised in Morelos, Mexico. He is currently pursuing a degree in Computer Science at Macalester College, with an expected graduation in May, 2023. He aspires to work in the tech industry as a software engineer because of his passion for problem solving and the process it takes to find a possible solution. However, initially he did not intend to major in this field. It was not until his Sophomore year that he discovered this STEM career and decided to major on it.
+                        Juan, a first-generation college student, was born in Minneapolis, MN but raised in Morelos, Mexico. He is currently studying Computer Science at Macalester College and expects to graduate in May 2023. Juan's passion for problem-solving and the process of finding solutions led him to aspire to work in the tech industry as a software engineer. Surprisingly, he did not initially plan to major in this field. It was not until his sophomore year that he discovered his interest in STEM careers and ultimately decided to pursue a major in Computer Science.
                     </p>
                     <p className="py-1">
-                        He is part of Macalester's Bonner Community Scholar, which is a four-year civic engagement program providing leadership programming, academic support, engagement opportunities and a social network. As a result, he has been able to intern at nonprofits such as CLUES and SPNN during the school year to give back to the community. Additionally, he had the opportunity to intern at SayKid (startup that has developed the world's 1st screen-less, play-based learning platform) as a WordPress Developer and designer during the Summer of 2021.
+                        As a participant in Macalester's Bonner Community Scholar program, he has had access to a four-year civic engagement program that offers leadership programming, academic support, engagement opportunities, and a social network. Through this program, he has been able to intern at nonprofits such as CLUES and SPNN during the school year to give back to the community. In addition, during the summer of 2021, he had the chance to intern at SayKid, a startup that has developed the world's first screen-less, play-based learning platform, where he worked as a WordPress Developer and designer.
                     </p>
                     <p className="py-1">
-                        All of these opportunities have led him to expand his professional and soft skills: communication, attention to detail, time management, organization, teamwork, critical thinking, creativity, and programming. In the future, he expects to bring all his knowledge and experience to a tech company.
+                        Through these experiences, he has  been able to develop both professional and soft skills, including communication, attention to detail, time management, organization, teamwork, critical thinking, creativity, and programming. With the acquisition of these skills, he plans to use his knowledge and experience to contribute to a tech company in the future.
                     </p>
                 </div>
   
