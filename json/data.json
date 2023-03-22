@@ -7,45 +7,110 @@
     "experiences": [
         {
             "id": "spnn",
-            "place": "Saint Paul Neighborhood Network (SPNN), Saint Paul, MN",
+            "place": "Saint Paul Neighborhood Network (SPNN)",
+            "location": "Saint Paul, MN",
+            "link": "https://spnn.org/",
             "date": "September 2021 - Present",
             "positions": [
-                [
-                    "Graphic Designer",
-                    "Use design software to create graphics for Facebook, Instagram, and SPNN’s website to promote different events related to media and technology for the community",
-                    "Assist in the designing of their website to match the organization’s theme and aesthetics"
-                ] 
+                {
+                    "name": "Production and program assistant",
+                    "tasks": [
+                        "Increased SPNN’s workshops attendance by 30%, creating graphics for Facebook, Instagram, and their website to advertise them",
+                        "Created technical videos and documentation explaining the online process of media equipment reservations for SPNN members",
+                        "Assisted members with media equipment needs and any questions related to Adobe Suite programs"
+                    ]
+                }
             ]
         },
         {
             "id": "saykid",
-            "place": "SayKid, Minneapolis, MN",
-            "date": "June – December 2021",
+            "place": "SayKid",
+            "location": "Minneapolis, MN",
+            "link": "https://saykid.com/",
+            "date": "June 2021 – December 2021",
             "positions": [
-                [
-                    "WordPress Developer",
-                    "Update SayKid's website design and functionality using WordPress tools and plugins", 
-                    "Responsible for the implementation of user-flow checkout process on SayKid's website (WooCommerce)"
-                ],
-                [
-                    "Designer",
-                    "Update SayKid's website design and functionality using WordPress tools and plugins", 
-                    "Collaborate on an interactive design box for the ToyBoy for its different games"
-                ]  
+                {
+                    "name": "WordPress developer",
+                    "tasks": [
+                        "Improved WordPress website load time from 3500ms to just under 700ms by updating functionality and plug-ins which resulted in a traffic increased of 20%",
+                        "Implemented an ecommerce multistep checkout process to give users an easy and efficient experience when buying a ToyBot (SayKid’s product)",
+                        "Wrote detailed documentation of new features added to the website to improve productivity of future interns"
+                    ]
+                },
+                {
+                    "name": "Designer",
+                    "tasks": [
+                        "Redesigned the ToyBot packaging as an interactive box where children can play and learn while playing with the ToyBot",
+                        "Developed an Adobe XD prototype for their website to add e-commerce functionality, increase traffic, and improve user experience"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "upturnships",
+            "place": "UpTurnShips",
+            "location": "Minneapolis, MN",
+            "link": "https://www.upturnships.org/",
+            "date": "June – August 2021",
+            "positions": [
+                {
+                    "name": "Intern, UpTurnships",
+                    "tasks": [
+                        "Gained 50+ hours of career and professional readiness training from professionals in various fields",
+                        "Practiced career skills and learned about key strengths as an employee",
+                        "Selected from a competitive pool of more than 100 students"
+                    ]
+                }
             ]
         },
         {
             "id": "clues",
-            "place": "CLUES, Saint Paul, MN",
+            "place": "Comunidades Latinas Unidas En Servicio (CLUES)",
+            "location": "St. Paul, MN",
+            "link": "https://clues.org/",
             "date": "September – December 2020",
             "positions": [
-                [
-                    "Civic Engagement Coordinator for Youth in Action (YA!)",
-                    "Research, prepare, and present findings of civic engagement topics to high school students",
-                    "Develop different activities for students related to civic engagement, including rights and responsibilities"
-                ]
+                {
+                    "name": "Civic engagement coordinator for Youth in Action (YA!)",
+                    "tasks": [
+                        "Researched, prepared, and presented findings of civic engagement topics to 50 high school students who prepare for college and career",
+                        "Developed different activities for students related to civic engagement, including rights and responsibilities, to learn and engage in their communities"
+                    ]
+                }
             ]
-        }
+        },
+        {
+            "id": "expo",
+            "place": "EXPO School",
+            "location": "St. Paul, MN",
+            "link": "https://www.spps.org/expo",
+            "date": "September 2019 – March 2020",
+            "positions": [
+                {
+                    "name": "Mathematics Teaching Assistant",
+                    "tasks": [
+                        "Assisted 60 elementary-aged students with Math activities and Scratch coding activities",
+                        "Prepared Kahoot Math activities for students to learn as they have fun"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "walmart",
+            "place": "Walmart",
+            "location": "Bloomington, MN",
+            "link": "",
+            "date": "June - August 2019",
+            "positions": [
+                {
+                    "name": "Customer Service Representative",
+                    "tasks": [
+                        "Greeted customers, helped, and answered customer’s individuals’ questions, maintaining a positive attitude",
+                        "Registered sales on a cash register by scanning items and totaling customers' purchases"
+                    ]
+                }
+            ]
+        }         
     ],
     "projects": [
         {
@@ -69,24 +134,25 @@
     ],
     "skills": {
         "software":[
+            
+            {
+                "name": "Illustrator",
+                "level": "Advance",
+                "image": "illustrator.png"
+            },
+            {
+                "name": "Photoshop",
+                "level": "Intermidiate",
+                "image": "photoshop.png"
+            },
             {
                 "name": "Adobe XD",
                 "level": "Advance",
                 "image": "adobexd.png"
             },
             {
-                "name": "Illustrator",
-                "level": "Advance",
-                "image": ""
-            },
-            {
-                "name": "Photoshop",
-                "level": "Intermidiate",
-                "image": ""
-            },
-            {
                 "name": "Figma",
-                "level": "Intermidate",
+                "level": "Advance",
                 "image": "figma.png"
             },
             {
@@ -102,13 +168,18 @@
         ],
         "programming": [
             {
+                "name": "Python",
+                "level": "Advance",
+                "image": "python.png"
+            },
+            {
                 "name": "HTML",
                 "level": "Intermidate",
                 "image": "html.png"
             },
             {
                 "name": "Tailwind CSS",
-                "level": "Intermidiate",
+                "level": "Beginner",
                 "image": "tailwind.png"
             },
             {
@@ -117,14 +188,14 @@
                 "image": "javascript.png"
             },
             {
-                "name": "Python",
-                "level": "Advance",
-                "image": "python.png"
+                "name": "Next.js",
+                "level": "Beginner",
+                "image": "nextjs.png"
             },
             {
-                "name": "Next.js",
-                "level": "Intermidate",
-                "image": "nextjs.png"
+                "name": "Java",
+                "level": "Intermidiate",
+                "image": "java.png"
             }
         ]
         
