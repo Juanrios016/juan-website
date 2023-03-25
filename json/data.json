@@ -97,7 +97,7 @@
             "id": "walmart",
             "place": "Walmart",
             "location": "Bloomington, MN",
-            "link": "",
+            "link": "https://www.walmart.com/",
             "date": "June - August 2019",
             "positions": [
                 {
@@ -117,7 +117,9 @@
             "status": "In progress - Last update: February 2023",
             "description": "Super Mario World is a classic platform game that involves traversing from point A to point B. To enhance the game's playability, an AI agent has been implemented using Genetic Algorithms, which are rooted in natural selection and genetics. The project's objective is to train an agent using N number of generations, with the aim of enabling it to complete at least the first level of World 1 by the N+1 generation. To accomplish this, the project requires the use of PyBoy, a GameBoy emulator built in Python, and Python itself.",
             "image": "mario.jpg",
-            "id": 1
+            "id": 1,
+            "git-link": "",
+            "live-link": ""
         },
         {
             "name": "Mac Map",
@@ -125,14 +127,18 @@
             "status": "Status: Last update - December 2021",
             "description": "The purpose of this group project is to create a tool that assists Macalester College students in locating their classrooms for various courses. The idea stemmed from personal experiences with the amount of time spent searching for a classroom each semester, particularly when unfamiliar with a particular building. This version of the tool was developed using HTML, CSS, and JavaScript as the primary programming languages.",
             "image": "mac-map.jpg",
-            "id": 2
+            "id": 2,
+            "git-link": "https://github.com/Juanrios016/Mac-Map",
+            "live-link": "https://mac-map.glitch.me/mac-mac-html/landing-page.html"
         },
         {
             "name": "ChowGirls Data Analysis, Consulting Team",
             "status": "Status: Summer 2021",
             "description": "This group project consisted in conducteing a comprehensive analysis of ChowGirls Kitchen's data from April 2020 - April 2021 using bar graphs to identify specific areas where waste reduction efforts can be implemented effectively. We also designed graphics that visually depict ChowGirls' commitment to sustainability and eco-friendliness along with the results that demonstrated this, which were featured on the company's website and social media channels.",
             "image": "chowgirls.png",
-            "id": 3
+            "id": 3,
+            "git-link": "",
+            "live-link": ""
         }        
     ],
     "sideProjects" : [
@@ -141,7 +147,9 @@
             "status": "Status: In progress - Last update: March 2023",
             "description": "This website has the intention of highlighting Juan, his background, and his skills. It is built implementing Next JS, a React framework.",
             "image": "logo-blue.png",
-            "id": 1
+            "id": 0,
+            "git-link": "https://github.com/Juanrios016/juan-website",
+            "live-link": "/"
         }
     ],
 
@@ -150,64 +158,76 @@
             {
                 "name": "Illustrator",
                 "level": "Advance",
-                "image": "illustrator.png"
+                "image": "illustrator.png",
+                "alt": "Illustrator logo"
             },
             {
                 "name": "Photoshop",
                 "level": "Intermidiate",
-                "image": "photoshop.png"
+                "image": "photoshop.png",
+                "alt": "Photoshop logo"
             },
             {
                 "name": "Adobe XD",
                 "level": "Advance",
-                "image": "adobexd.png"
+                "image": "adobexd.png",
+                "alt": "Adobe XD logo"
             },
             {
                 "name": "Figma",
                 "level": "Advance",
-                "image": "figma.png"
+                "image": "figma.png",
+                "alt": "Figma logo"
             },
             {
                 "name": "WordPress",
                 "level": "Advance",
-                "image": "wordpress.png"
+                "image": "wordpress.png",
+                "alt": "WordPress logo"
             },
             {
                 "name": "SquareSpace",
                 "level": "Intermidiate",
-                "image": "squarespace.png"
+                "image": "squarespace.png",
+                "alt": "Squarespace logo"
             }
     ],
     "programmingSkills": [
             {
                 "name": "Python",
                 "level": "Advance",
-                "image": "python.png"
+                "image": "python.png",
+                "alt": "Python logo"
             },
             {
                 "name": "HTML",
                 "level": "Intermidate",
-                "image": "html.png"
+                "image": "html.png",
+                "alt": "HTML logo"
             },
             {
                 "name": "Tailwind CSS",
                 "level": "Beginner",
-                "image": "tailwind.png"
+                "image": "tailwind.png",
+                "alt": "Tailwind CSS logo"
             },
             {
                 "name": "Javascript",
                 "level": "Intermidate",
-                "image": "javascript.png"
+                "image": "javascript.png",
+                "alt": "JavaScript logo"
             },
             {
                 "name": "Next.js",
                 "level": "Beginner",
-                "image": "nextjs.png"
+                "image": "nextjs.png",
+                "alt": "Nest JS logo"
             },
             {
                 "name": "Java",
                 "level": "Intermidiate",
-                "image": "java.png"
+                "image": "java.png",
+                "alt": "Java logo"
             }
     ]
 }

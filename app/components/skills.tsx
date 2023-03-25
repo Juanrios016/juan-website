@@ -8,16 +8,16 @@ export default function Skills () {
   const {softwareSkills, programmingSkills} = data
 
   const software = softwareSkills.map( skill => (
-    <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
-      <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+    <div key={skill.name.toString()} className="flex flex-col justify-center py-2 w-[130px]">
+      <Image src={"/"+ skill.image} className={"self-center rounded-2xl w-[80px] h-[80px]"} quality={100} alt={skill.alt} width={120} height={120}/>
       <p className="font-bold">{skill.name}</p>
       <p>Level: {skill.level}</p>
     </div>
   ))
 
   const programming = programmingSkills.map( skill => (
-    <div key={skill.name.toString()}className="flex flex-col justify-center  py-2">
-      <Image src={"/"+ skill.image} className={"self-center w-2/3 h-auto rounded-2xl"} quality={100} alt={""} width={120} height={120}/>
+    <div key={skill.name.toString()} className="flex flex-col justify-center py-2 w-[130px]">
+      <Image src={"/"+ skill.image} className={"self-center rounded-2xl w-[80px] h-[80px]"} quality={100} alt={skill.alt} width={120} height={120}/>
       <p className="font-bold">{skill.name}</p>
       <p>Level: {skill.level}</p>
     </div>
@@ -30,23 +30,23 @@ export default function Skills () {
           Skills
         </h1>
         <div className={"md:flex  items-start"}>
-          <div className="  max-sm:max-w-72 m-auto md:w-1/3">
+          <div className="  max-sm:max-w-72 m-auto md:w-5/12">
             <h1 className="font-bold text-center underline text-xl">
               Software
             </h1>
-            <div className="flex flex-wrap text-center justify-evenly py-3">
+            <div className="flex flex-wrap text-center object-center justify-center py-3">
               {
                 software
               }
             </div>
           </div>
     
-          <div className=" max-sm:max-w-72  m-auto md:w-1/3">
+          <div className=" max-sm:max-w-72  m-auto md:w-5/12">
             <h1 className="font-bold text-center underline text-xl">
               Programming
             </h1>
 
-             <div className="flex flex-wrap text-center justify-evenly py-3">
+            <div className="flex flex-wrap text-center object-center justify-center py-3">
               {
                 programming
               }
