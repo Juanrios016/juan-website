@@ -112,6 +112,16 @@
     ],
     "academicProjects": [
         {
+            "name": "Industrial Emissions Impact on Louisiana’s Public Health ",
+            "class": "Class: Introduction to Data Science",
+            "status": "Last update: April 2023",
+            "description": "This project aimed to investigate the impact of industrial emissions on public health in Louisiana, focusing on Ascension and Calcasieu counties. The team analyzed the Louisiana Department of Environmental Quality emissions inventory dataset from 1991 to 2022 using RStudio for data wrangling. The dataset included information about the amount and type of pollutants released by industrial facilities in Louisiana. The project identified the limitations of the dataset, which can impact the accuracy of measuring pollution from companies. The team also identified the top 15 cancer-causing chemicals and their sources, as recognized by the National Institutes of Health and the National Toxicology Program. This project used RStudio and data wrangling techniques to conduct an analysis of industrial emissions in Louisiana and their potential impact on public health.",
+            "image": "ledq.jpg",
+            "id": 4,
+            "git-link": "",
+            "live-link": ""
+        },
+        {
             "name": "Genetic Algorithms: AI learns how to play Seper Mario Land",
             "class": "Class: Introduction to AI",
             "status": "In progress - Last update: February 2023",
@@ -190,9 +200,21 @@
                 "level": "Intermidiate",
                 "image": "squarespace.png",
                 "alt": "Squarespace logo"
+            },
+            {
+                "name": "RStudio",
+                "level": "Advance",
+                "image": "rstudio.jpg",
+                "alt": "RStudio logo"
             }
     ],
     "programmingSkills": [
+            {
+                "name": "R",
+                "level": "Advance",
+                "image": "r.jpg",
+                "alt": "R language logo"
+            },
             {
                 "name": "Python",
                 "level": "Advance",
